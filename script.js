@@ -4,6 +4,7 @@ const LINKS = {
     hospitalCard: "https://engyfayez.github.io/index/hospital_card.html",
     hospitalKPIs: "",   // رابط مؤشرات المستشفيات الشهرية (KPIs) - يُضاف لاحقًا
     surgeries: "https://engyfayez.github.io/index/",
+    org: "https://liart-three-95.vercel.app",
     deptCard: "",   // رابط الكارت التعريفي للإدارات الصحية
     deptKPIs: ""    // رابط المؤشرات الشهرية بالإدارات
 };
@@ -24,7 +25,7 @@ const SECTIONS = {
         { icon: "hospital", accent: "#d9b46c", title: "الكارت التعريفي للمستشفيات", desc: "بيانات وإمكانات وخدمات كل مستشفى", link: LINKS.hospitalCard },
         { icon: "gauge", accent: "#4aa3ff", title: "المؤشرات الشهرية بالمستشفيات KPIs", desc: "متابعة مؤشرات الأداء الشهرية للمستشفيات", link: LINKS.hospitalKPIs },
         { icon: "pulse", accent: "#ff6b73", title: "العمليات الجراحية", desc: "التقرير الإحصائي للعمليات الجراحية", link: LINKS.surgeries },
-        { icon: "org", accent: "#8b7bff", title: "القيادة الصحية", desc: "بيانات وقيادات القطاع الصحي", link: null }
+        { icon: "org", accent: "#8b7bff", title: "القيادة الصحية", desc: "بيانات وقيادات القطاع الصحي", link: LINK.org }
     ],
     departments: [
         { icon: "org", accent: "#d9b46c", title: "الكارت التعريفي للإدارات الصحية", desc: "بيانات وإمكانات كل إدارة صحية", link: LINKS.deptCard },
