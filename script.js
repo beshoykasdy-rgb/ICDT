@@ -2,7 +2,7 @@
    اترك الرابط فارغًا "" ويظهر الكارت "قريبًا" ولا يفتح شيئًا */
 const LINKS = {
     hospitalCard: "https://engyfayez.github.io/index/hospital_card.html",
-    hospitalKPIs: "",   // رابط مؤشرات المستشفيات الشهرية (KPIs) - يُضاف لاحقًا
+    hospitalKPIs: "https://engyfayez.github.io/kpis/",   // رابط مؤشرات المستشفيات الشهرية (KPIs) - يُضاف لاحقًا
     surgeries: "https://engyfayez.github.io/index/",
     org: "https://liart-three-95.vercel.app",
     deptCard: "",   // رابط الكارت التعريفي للإدارات الصحية
